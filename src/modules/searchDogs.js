@@ -15,7 +15,7 @@ const searchDogs = () => {
                     })
                 }
                 else {
-                    document.querySelector('main .result').innerHTML = '<div class="col">Breed not found. Check spelling!</div>';
+                    document.querySelector('main .result').innerHTML = '<div lang="lt" class="col">Šuns veislė nerasta. Patikrinkite rašybą!</div>';
                 }
 
             })

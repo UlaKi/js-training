@@ -50,7 +50,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 var form = function form() {
-  return "<div class=\"form-group mb-2\">\n        <input type=\"text\" class=\"form-control term\" placeholder=\"Dog breed\">\n    </div>\n    <button type=\"submit\" class=\"btn btn-primary\">Search</button>\n    ";
+  return "<div class=\"form-group mb-2\">\n        <input type=\"text\" class=\"form-control term\" placeholder=\"Dog breed\">\n    </div>\n    <button lang=\"lt\" type=\"submit\" class=\"btn btn-primary\">Ie\u0161koti</button>\n    ";
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (form);
@@ -130,7 +130,7 @@ var searchDogs = function searchDogs() {
           document.querySelector('main .result').appendChild((0,_renderImage__WEBPACK_IMPORTED_MODULE_1__["default"])(dog));
         });
       } else {
-        document.querySelector('main .result').innerHTML = '<div class="col">Breed not found. Check spelling!</div>';
+        document.querySelector('main .result').innerHTML = '<div lang="lt" class="col">Šuns veislė nerasta. Patikrinkite rašybą!</div>';
       }
     });
   });
